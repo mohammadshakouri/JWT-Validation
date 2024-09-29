@@ -26,7 +26,7 @@ namespace JWT
 
             try
             {
-                // Load RSA public key from PEM file using BouncyCastle
+                // Load RSA public key from PEM File using BouncyCastle
                 RSA rsa = LoadRsaPublicKeyFromPem(pemFilePath);
 
                 // Define validation parameters
